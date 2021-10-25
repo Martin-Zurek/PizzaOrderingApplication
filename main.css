@@ -1,34 +1,37 @@
+/* Background Color */
 body {
     background-color: rgba(100, 100, 100, 0.50);
     background-size: cover;
 }
 
+/* Main Text */
 h1 {
-    text-align: center;
+    text-align: center; 
 }
 
-/* Style the form */
+
+/* Form Style*/
 #regForm {
     background-color: #ffffff;
     margin: 100px auto;
     padding: 40px;
-    width: 70%;
+    width: 75%;
     min-width: 300px;
-  }
+}
   
-  /* Style the input fields */
-  input {
+/* Input Field Style */
+input {
     padding: 10px;
     width: 100%;
     font-size: 17px;
     font-family: Raleway;
     border: 1px solid #aaaaaa;
-  }
+}
   
-  /* Mark input boxes that gets an error on validation: */
-  input.invalid {
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
     background-color: #ffdddd;
-  }
+}
   
   /* Hide all steps by default: */
   .tab {
@@ -47,10 +50,10 @@ h1 {
     opacity: 0.5;
   }
   
-  /* Mark the active step: */
-  .step.active {
+/* Mark The Active Step */
+.step.active {
     opacity: 1;
-  }
+}
   
   /* Mark the steps that are finished and valid: */
   .step.finish {
