@@ -8,9 +8,9 @@ body {
 h1 {
     color: rgba(255, 255, 255, 1.0);
     font-family: 'Oswald';
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 1.0);
 }
 
 /* H2 Text */
@@ -23,8 +23,14 @@ h3 {
     font-size: 15px;
 }
 
-
-/* FORMAT THIS STUFF LATER */
+/* H4 Text */
+h4 {
+    color: rgba(255, 255, 255, 1.0);
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1.25px 1.25px rgba(0, 0, 0, 1.0); 
+}
 
 /* Form Style*/
 #regForm {
@@ -44,18 +50,18 @@ input {
     border: 1px solid #aaaaaa;
 }
   
-/* Mark input boxes that gets an error on validation: */
+/* Invalid Input */
 input.invalid {
     background-color: #ffdddd;
 }
   
-  /* Hide all steps by default: */
-  .tab {
+/* Hide Steps By Default */
+.tab {
     display: none;
-  }
+}
   
-  /* Make circles that indicate the steps of the form: */
-  .step {
+/* Make circles that indicate the steps of the form: */
+.step {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -64,22 +70,19 @@ input.invalid {
     border-radius: 50%;
     display: inline-block;
     opacity: 0.5;
-  }
+}
   
 /* Mark The Active Step */
 .step.active {
     opacity: 1;
 }
   
-/* Mark the steps that are finished and valid: */
+/* Mark The Finished Step */
 .step.finish {
-    background-color: #04AA6D;
+    background-color: rgba(0, 255, 0, 1.0);
 }
 
-/* ^^^ */
-
 /* Scrollbar */
-
 ::-webkit-scrollbar {
 	width: 10px;
 }
