@@ -1,14 +1,30 @@
 /* Background Color */
 body {
-    background-color: rgba(55, 55, 59);
+    background-color: rgba(55, 55, 59, 1.0);
     background-size: cover;
 }
 
-/* Main Text */
+/* H1 Text */
 h1 {
-    text-align: center; 
+    color: rgba(255, 255, 255, 1.0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 3px 3px black;
 }
 
+/* H2 Text */
+h2 {
+    text-align: center;
+}
+
+/* H3 Text */
+h3 {
+    font-size: 15px;
+}
+
+
+/* FORMAT THIS STUFF LATER */
 
 /* Form Style*/
 #regForm {
