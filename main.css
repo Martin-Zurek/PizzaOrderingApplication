@@ -80,7 +80,7 @@ input.invalid {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbbbbb;
+    background-color: rgba(50, 50, 50, 0.25);
     border: none;
     border-radius: 50%;
     display: inline-block;
