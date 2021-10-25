@@ -15,11 +15,13 @@ h1 {
 
 /* H2 Text */
 h2 {
+    font-family: 'Oswald';
     text-align: center;
 }
 
 /* H3 Text */
 h3 {
+    font-family: 'Oswald';
     font-size: 15px;
 }
 
@@ -30,6 +32,14 @@ h4 {
     font-size: 20px;
     text-align: center;
     text-shadow: 1.25px 1.25px rgba(0, 0, 0, 1.0); 
+}
+
+/* Button */
+button {
+    font-family: 'Oswald';
+    text-align: center;
+    width: 50px;
+    height: 25px;
 }
 
 /* Form Style*/
@@ -46,7 +56,7 @@ input {
     padding: 10px;
     width: 100%;
     font-size: 17px;
-    font-family: Raleway;
+    font-family: 'Oswald';
     border: 1px solid #aaaaaa;
 }
   
