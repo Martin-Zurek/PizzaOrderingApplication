@@ -34,6 +34,11 @@ h4 {
     text-shadow: 1.25px 1.25px rgba(0, 0, 0, 1.0); 
 }
 
+/* Funny Button */
+a {
+    text-decoration: none;
+}
+
 /* Button */
 button {
     font-family: 'Oswald';
@@ -50,26 +55,26 @@ button {
     width: 75%;
     min-width: 300px;
 }
-  
+
 /* Input Field Style */
 input {
     padding: 10px;
     width: 100%;
     font-size: 17px;
     font-family: 'Oswald';
-    border: 1px solid #aaaaaa;
+    border: 1.5px solid #aaaaaa;
 }
-  
+
 /* Invalid Input */
 input.invalid {
     background-color: #ffdddd;
 }
-  
+
 /* Hide Steps By Default */
 .tab {
     display: none;
 }
-  
+
 /* Make circles that indicate the steps of the form: */
 .step {
     height: 15px;
@@ -81,12 +86,12 @@ input.invalid {
     display: inline-block;
     opacity: 0.5;
 }
-  
+
 /* Mark The Active Step */
 .step.active {
     opacity: 1;
 }
-  
+
 /* Mark The Finished Step */
 .step.finish {
     background-color: rgba(0, 255, 0, 1.0);
