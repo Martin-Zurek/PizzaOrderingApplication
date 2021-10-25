@@ -71,7 +71,29 @@ input.invalid {
     opacity: 1;
 }
   
-  /* Mark the steps that are finished and valid: */
-  .step.finish {
+/* Mark the steps that are finished and valid: */
+.step.finish {
     background-color: #04AA6D;
-  }
+}
+
+/* ^^^ */
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 1);
+	background: rgba(255, 0, 0, 0);
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(135, 135, 135, 0.10);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(135, 135, 135, 0.65);
+}
