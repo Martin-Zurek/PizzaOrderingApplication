@@ -2,70 +2,70 @@
 <html lang="en">
 
 <head>
-    <!-- Title/Icon -->
-    <title>Pizza Ordering Application</title>
-    <link rel="icon" href="assets/icon.png">
+  <!-- Title/Icon -->
+  <title>Pizza Ordering Application</title>
+  <link rel="icon" href="assets/icon.png">
 
-    <!-- Stylesheet/Font -->
-    <link rel="stylesheet" href="main.css">
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <!-- Stylesheet/Font -->
+  <link rel="stylesheet" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 
-    <!-- Misc -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Misc -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <div id="toprow">
-        <h1>Pizza Ordering Application</h1>
+  <div id="toprow">
+    <h1>Pizza Ordering Application</h1>
+  </div>
+
+  <form id="regForm" action="">
+
+  <div class="tab">
+    <h2>Delivery Details</h2>
+    <p><h3>Unit Number</h3><input placeholder="Type Unit Number Here" oninput="this.className = ''"></p>
+    <p><h3>Street Number</h3><input placeholder="Type Street Number Here" oninput="this.className = ''"></p>
+    <p><h3>Street</h3><input placeholder="Type Street Here" oninput="this.className = ''"></p>
+    <p><h3>Suburb</h3><input placeholder="Type Suburb Here" oninput="this.className = ''"></p>
+    <p><h3>Postcode</h3><input placeholder="Type Postcode Here" oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">
+    <h2>Text Goes Here</h2>
+    <p><h3>Text Goes Here</h3><input placeholder="More Text Goes Here" oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">
+    <h2>Text Goes Here</h2>
+    <p><h3>Text Goes Here</h3><input placeholder="More Text Goes Here" oninput="this.className = ''"></p>
+  </div>
+
+  <div class="tab">
+    <h2>Text Goes Here</h2>
+    <p><h3>Text Goes Here</h3><input placeholder="More Text Goes Here" oninput="this.className = ''"></p>
+  </div>
+
+  <div style="overflow:auto;">
+  <div style="float:right;">
+    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Back</button>
+    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
     </div>
+  </div>
 
-    <form id="regForm" action="">
+  <!-- Step Icons -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
 
-        <div class="tab">
-            <h2>Delivery Details</h2>
-            <p><h3>Unit Number</h3><input placeholder="Type Unit Number Here" oninput="this.className = ''"></p>
-            <p><h3>Street Number</h3><input placeholder="Type Street Number Here" oninput="this.className = ''"></p>
-            <p><h3>Street</h3><input placeholder="Type Street Here" oninput="this.className = ''"></p>
-            <p><h3>Suburb</h3><input placeholder="Type Suburb Here" oninput="this.className = ''"></p>
-            <p><h3>Postcode</h3><input placeholder="Type Postcode Here" oninput="this.className = ''"></p>
-        </div>
+  </form>
 
-        <div class="tab">
-            <h2>Text Goes Here</h2>
-            <p><h3>Text Goes Here</h3><input placeholder="More Text Goes Here" oninput="this.className = ''"></p>
-        </div>
-
-        <div class="tab">
-            <h2>Text Goes Here</h2>
-            <p><h3>Text Goes Here</h3><input placeholder="More Text Goes Here" oninput="this.className = ''"></p>
-        </div>
-
-        <div class="tab">
-            <h2>Text Goes Here</h2>
-            <p><h3>Text Goes Here</h3><input placeholder="More Text Goes Here" oninput="this.className = ''"></p>
-        </div>
-
-        <div style="overflow:auto;">
-          <div style="float:right;">
-            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Back</button>
-            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-          </div>
-        </div>
-
-        <!-- Step Icons -->
-        <div style="text-align:center;margin-top:40px;">
-          <span class="step"></span>
-          <span class="step"></span>
-          <span class="step"></span>
-          <span class="step"></span>
-        </div>
-
-        </form>
-
-        <div id="bottomrow">
-          <span class="callbutton"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h4>Call Us (Click Here) </h4></a></span>
-        </div>
+  <div id="bottomrow">
+    <span class="callbutton"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h4>Call Us (Click Here) </h4></a></span>
+  </div>
 
 <script>
 var currentTab = 0;
@@ -127,7 +127,3 @@ function fixStepIndicator(n) {
 </body>
 
 </html>
-
-<!--
-  The first section will be the "HomePage" and after will be a multi step form, need to figure out money.
-  Click To Start -> Delivery Details -> Choose Pizza/Sides/Drink -> Payment -> Done

@@ -77,7 +77,7 @@ input.invalid {
     display: none;
 }
 
-/* Make circles that indicate the steps of the form: */
+/* Step Circles */
 .step {
     height: 15px;
     width: 15px;
